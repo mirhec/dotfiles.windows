@@ -8,7 +8,7 @@ fi
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-PATH="$HOME/.linuxbrew/sbin:$HOME/.homesick/repos/homeshick/bin:$PATH"
+PATH="$HOME/.linuxbrew/bin:$HOME/.homesick/repos/homeshick/bin:$PATH"
 MANPATH=":$HOME/.linuxbrew/share/man:$MANPATH"
 INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 

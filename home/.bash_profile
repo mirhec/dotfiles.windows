@@ -10,3 +10,6 @@ fi
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
 export PATH
+
+# use fish as login shell
+[ -f /usr/bin/fish ] && exec /usr/bin/fish -l

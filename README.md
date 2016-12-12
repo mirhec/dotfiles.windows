@@ -2,14 +2,14 @@
 
 #### STEP 1: Login to your server
 
-#### STEP 2: Install fish shell
-
-    curl -L https://goo.gl/c5fwRo | bash
-
-#### STEP 3: Clone the dotfiles from these reporitory
+#### STEP 2: Clone the dotfiles from these reporitory
 
     git clone https://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
     ~/.homesick/repos/homeshick/bin/homeshick clone mirhec/dotfiles
+
+#### STEP 3: Install fish shell
+
+    curl -L https://goo.gl/c5fwRo | bash
 
 #### STEP 4: Configure git
 

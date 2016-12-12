@@ -8,7 +8,9 @@ fi
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-export PATH=$PATH:/usr/local/bin
+PATH="$HOME/.linuxbrew/bin:$PATH"
+MANPATH=":$HOME/.linuxbrew/share/man:$MANPATH"
+INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 
 # # Autostart workaround for windows
 # fish -l

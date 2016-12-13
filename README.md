@@ -19,13 +19,4 @@
     # install fish with brew
     brew install fish
 
-#### STEP 4: Configure git
-
-    git config --global user.name "<FIRST_NAME> <LAST_NAME>"
-    git config --global user.email "<EMAIL_ADDRESS>"
-
-#### To start tmux automatically after login add following line to `/etc/ssh/sshd_config`:
-
-    AcceptEnv TMUX_AUTOSTART
-
 #### Then log out and log in again to apply the changes

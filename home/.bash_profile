@@ -13,3 +13,4 @@ export PATH
 
 # use fish as login shell
 [ -f $HOME/.linuxbrew/bin/fish ] && exec $HOME/.linuxbrew/bin/fish -l
+[ -f /usr/local/bin/fish ] && exec /usr/local/bin/fish -l

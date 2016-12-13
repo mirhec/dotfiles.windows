@@ -4,12 +4,14 @@
 
 #### STEP 2: Clone the dotfiles from these reporitory
 
+```bash
     git clone https://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
     ~/.homesick/repos/homeshick/bin/homeshick clone mirhec/dotfiles
     source ~/.bashrc
+```
 
 #### STEP 3: Install Linuxbrew and fish
-
+```bash
     git clone https://github.com/Linuxbrew/brew.git ~/.linuxbrew
     
     # symlinks to gcc in order to make brew install able to compile from source
@@ -18,10 +20,12 @@
     
     # install fish with brew
     brew install fish
+```
 
 #### STEP 4 (only for mac): Set fish as default shell
-
+```bash
     # check if /usr/local/bin/fish exists in /etc/shells, otherwise add it
     chsh -s /usr/local/bin/fish
+```
 
 #### Then log out and log in again to apply the changes

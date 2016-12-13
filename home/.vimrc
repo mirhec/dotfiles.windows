@@ -197,7 +197,7 @@ map <Leader>L <C-w>L
 map <Leader>o <C-w>o
 
 " don't use ESC anymore
-inoremap jj <Esc>l
+inoremap kj <Esc>l
 
 " make < > shifts keep selection
 vnoremap < <gv

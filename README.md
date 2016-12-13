@@ -19,4 +19,9 @@
     # install fish with brew
     brew install fish
 
+#### STEP 4 (only for mac): Set fish as default shell
+
+    # check if /usr/local/bin/fish exists in /etc/shells, otherwise add it
+    chsh -s /usr/local/bin/fish
+
 #### Then log out and log in again to apply the changes

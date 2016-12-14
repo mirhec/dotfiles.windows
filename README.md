@@ -6,7 +6,7 @@
 ```bash
 # execute these commands as sudo
 dnf remove vim-minimal
-dnf install git vim tmux fish
+dnf install git vim tmux fish sudo
 ```
 
 #### STEP 3: Clone the dotfiles from these reporitory

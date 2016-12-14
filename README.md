@@ -35,8 +35,12 @@ brew install fish
 
 #### STEP 5: Set fish as default shell (only for MacOS and Fedora)
 ```bash
-# check if /usr/local/bin/fish exists in /etc/shells, otherwise add it
-chsh -s /usr/local/bin/fish
+## For MacOS:
+    # check if /usr/local/bin/fish exists in /etc/shells, otherwise add it
+    chsh -s /usr/local/bin/fish
+## For Fedora:
+    sudo lchsh <SERVER_USERNAME>
+        New Shell [/bin/bash]: /usr/bin/fish
 ```
 
 #### Then log out and log in again to apply the changes

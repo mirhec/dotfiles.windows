@@ -57,7 +57,7 @@ chsh -s /usr/local/bin/fish
 
 #### STEP 1: Install dependencies
 ```bash
-apt-get install fish
+apt-get install fish vim -y
 ```
 
 #### STEP 2: Clone the dotfiles from these reporitory

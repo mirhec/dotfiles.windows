@@ -33,7 +33,7 @@ dnf install git vim tmux fish
     brew install fish
 ```
 
-#### STEP 4 (only for MacOS and Fedora): Set fish as default shell
+#### STEP 5: Set fish as default shell (only for MacOS and Fedora)
 ```bash
     # check if /usr/local/bin/fish exists in /etc/shells, otherwise add it
     chsh -s /usr/local/bin/fish

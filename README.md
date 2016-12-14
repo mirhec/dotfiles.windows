@@ -56,8 +56,11 @@ chsh -s /usr/local/bin/fish
 ## Setup for Ubuntu for Windows
 
 #### STEP 1: Install dependencies
+ - You should set another font for your console as described [here](http://www.hanselman.com/blog/UsingConsolasAsTheWindowsConsoleFont.aspx)
 ```bash
-apt-get install fish vim -y
+sudo apt-add-repository ppa:fish-shell/release-2
+sudo apt-get update
+sudo apt-get install fish vim -y
 ```
 
 #### STEP 2: Clone the dotfiles from these reporitory
@@ -68,10 +71,7 @@ git clone https://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshi
 source ~/.bashrc
 ```
 
-#### STEP 3: Set fish as default shell (only for MacOS and Fedora)
-```bash
-# check if /usr/bin/fish exists in /etc/shells, otherwise add it
-chsh -s /usr/bin/fish
-```
+#### STEP 3: Set fish as default shell
+ - Just uncomment the last two lines of `.bashrc`
 
 #### Then log out and log in again to apply the changes

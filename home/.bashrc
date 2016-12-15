@@ -13,5 +13,5 @@ MANPATH=":$HOME/.linuxbrew/share/man:$MANPATH"
 INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 
 # # Autostart workaround for windows
-# fish -l
-# exit
+fish -l
+exit

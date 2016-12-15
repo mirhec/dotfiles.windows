@@ -31,12 +31,12 @@ end
 #end
 
 # # WINDOWS WORKAROUND
-# function x86
-#     echo '(x86)'
-# end
-# function X86
-#     echo '(X86)'
-# end
+function x86
+    echo '(x86)'
+end
+function X86
+    echo '(X86)'
+end
 
 # ALIASES
 alias ack="command ack --pager='less -R'"

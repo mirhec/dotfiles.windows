@@ -8,6 +8,12 @@ sudo apt-get update
 sudo apt-get install fish vim -y
 ```
 
+#### STEP 2: Install Linuxbrew and tmux (actual version)
+```bash
+git clone https://github.com/Linuxbrew/brew.git ~/.linuxbrew
+brew install tmux
+```
+
 #### STEP 2: Clone the dotfiles from these reporitory
 
 ```bash

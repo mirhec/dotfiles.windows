@@ -5,7 +5,7 @@
 ```bash
 sudo apt-add-repository ppa:fish-shell/release-2
 sudo apt-get update
-sudo apt-get install fish vim -y
+sudo apt-get install fish vim git -y
 ```
 
 #### STEP 2: Install Linuxbrew and tmux (actual version)

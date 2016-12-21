@@ -22,7 +22,4 @@ git clone https://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshi
 source ~/.bashrc
 ```
 
-#### STEP 3: Set fish as default shell
- - Just uncomment the last two lines of `.bashrc`
-
 #### Then log out and log in again to apply the changes

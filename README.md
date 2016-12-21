@@ -8,18 +8,18 @@ sudo apt-get update
 sudo apt-get install fish vim git -y
 ```
 
-#### STEP 2: Install Linuxbrew and tmux (actual version)
-```bash
-git clone https://github.com/Linuxbrew/brew.git ~/.linuxbrew
-brew install tmux
-```
 
 #### STEP 2: Clone the dotfiles from these reporitory
-
 ```bash
 git clone https://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
 ~/.homesick/repos/homeshick/bin/homeshick clone mirhec/dotfiles.windows
 source ~/.bashrc
+```
+
+#### STEP 3: Install Linuxbrew and tmux (actual version)
+```bash
+git clone https://github.com/Linuxbrew/brew.git ~/.linuxbrew
+brew install tmux
 ```
 
 #### Then log out and log in again to apply the changes

@@ -2,7 +2,9 @@
 
 #### STEP 0: Fix Problems with WSL
 - If your `sudo` command takes a long time and ends up with the error message `unable to resolve host ...` you need to enter your host into /etc/hosts: `127.0.0.7 YOURHOSTNAME`
-- If you can't connect to the internet (`sudo apt-get update` fails) you should try to connect to another network card
+- If you can't connect to the internet (`sudo apt-get update` fails):
+ - You need to change /etc/resolv.conf and add `nameserver 8.8.8.8`
+ - Because this is overwritten by Windows, you need to add the DNS in the network settings of your Windows host system
 
 #### STEP 1: Install dependencies
  - You should set another font for your console as described [here](http://www.hanselman.com/blog/UsingConsolasAsTheWindowsConsoleFont.aspx)

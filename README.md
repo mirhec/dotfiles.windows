@@ -7,7 +7,7 @@
  - Because this is overwritten by Windows, you need to add the DNS in the network settings of your Windows host system
 
 #### STEP 1: Install dependencies
- - You should set another font for your console as described [here](http://www.hanselman.com/blog/UsingConsolasAsTheWindowsConsoleFont.aspx)
+ - You should install [wsltty](https://github.com/mintty/wsltty) and set your desired font
 ```bash
 sudo apt-add-repository ppa:fish-shell/release-2
 sudo apt-get update

@@ -13,6 +13,7 @@ PATH="$HOME/.linuxbrew/bin:$HOME/.linuxbrew/sbin:$HOME/.homesick/repos/homeshick
 MANPATH=":$HOME/.linuxbrew/share/man:$MANPATH"
 INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 
-# # Autostart workaround for windows
-fish -l
-exit
+# Autostart workaround for windows
+if [ -t 1 ]; then
+    exec fish -l
+fi
